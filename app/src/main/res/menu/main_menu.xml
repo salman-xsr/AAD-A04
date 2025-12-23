@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_theme"
+        android:title="@string/menu_theme"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/theme_light"
+                android:title="@string/theme_light" />
+            <item
+                android:id="@+id/theme_dark"
+                android:title="@string/theme_dark" />
+            <item
+                android:id="@+id/theme_custom"
+                android:title="@string/theme_custom" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/menu_refresh"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_popup_sync"/>
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/logout"
+        app:showAsAction="never"/>
+</menu>
